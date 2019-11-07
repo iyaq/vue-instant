@@ -96,7 +96,7 @@
         inputChanged: false,
         suggestionsIsVisible: true,
         highlightedIndex: 0,
-        highlightedIndexMax: 7,
+        highlightedIndexMax: 200,
         similiarData: [],
         placeholderVal: this.placeholder,
         types: [{
