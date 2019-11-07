@@ -432,6 +432,8 @@
         return typeof fnName === 'function'
       },
       canAddToSimilarData() {
+          console.log(this.highlightedIndexMax)
+          console.log(this.similiarData)
         return this.similiarData.length < this.highlightedIndexMax
       },
       suggestionsPropIsDefined() {
